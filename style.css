@@ -465,6 +465,12 @@ textarea:hover, input:hover{
 {
     margin-top: -30px;
 }
+@media screen and (max-width:1100px) {
+    .captionskills
+    {
+        font-size:80%;
+    }
+}
 /*Skills End*/
 /*Interests Start*/
 #interestsmain
