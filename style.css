@@ -418,8 +418,9 @@ textarea:hover, input:hover{
     align-items: center;
 }
 .skills {
-    height: 250px;
+    height: 100%;
     width: 100%;
+    padding-bottom: 20px;
     margin-top: 25px;
     margin-bottom: 25px;
     background-color: #333;
