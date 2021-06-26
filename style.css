@@ -45,7 +45,7 @@
 .rightnav a.current {
     border-bottom: 4px solid #00C8C8;
 }
-@media screen and (max-width:900px) {
+@media screen and (max-width:1100px) {
     .topnav
     {
         height:300px;
