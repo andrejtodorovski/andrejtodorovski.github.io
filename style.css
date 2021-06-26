@@ -53,12 +53,12 @@
     .rightnav
     {
         margin-top:40px;
-        width:100%;
         text-align: center;
         float: left;
     }
     .rightnav a
-    {
+    {                
+        width:100%;
         padding-right: 500px;
         font-size: 80%;
     }
