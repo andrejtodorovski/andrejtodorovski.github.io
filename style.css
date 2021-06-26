@@ -1,0 +1,507 @@
+/*Header start*/
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+.leftnav
+{
+    display: inline-block;
+    float: left;
+    height: 10px;
+    margin-top: -5px;
+    margin-left: 116px;
+    color: white;
+}
+.leftnav a
+{
+    color: white;
+    text-decoration: none;
+}
+.leftnav a:hover
+{
+    color: #00C8C8;
+}
+.rightnav
+{
+    display: inline-block;
+    float: right;
+    padding-right: 100px;
+}
+.rightnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 17px 10px;
+    margin-left: 6px;
+    margin-right: 6px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.rightnav a:hover {
+    border-bottom: 4px solid #00C8C8;
+}
+.rightnav a.current {
+    border-bottom: 4px solid #00C8C8;
+}
+@media screen and (max-width:900px) {
+    .topnav
+    {
+        height:300px;
+    }
+    .rightnav
+    {
+        margin-top:40px;
+        text-align: center;
+        float: left;
+    }
+    .rightnav a
+    {
+        padding-right: 500px;
+        font-size: 80%;
+    }
+}
+/*Header end*/
+/*Index start*/
+.indexdiv
+{
+    max-width: 100%;
+    background-color: #212529;
+    margin-left: -8px;
+    padding: 40px 116px;
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+}
+.indexpicture img
+{
+    height: 480px;
+    width: 320px;
+    object-fit: contain;
+    border: 4px whitesmoke solid;
+    border-radius: 4px;
+}
+.indextext {
+    max-width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 150%;
+}
+.indextext p
+{
+    text-align: justify;
+    display: block;
+}
+.indexinfo
+{
+    max-width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    line-height: 150%;
+    justify-content: center!important;
+}
+.indexinfo h2,.indextext h2
+{
+    color: #00C8C8;
+    text-transform: uppercase;
+}
+.indextext h2
+{
+    font-size: 180%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.indextext div
+{
+    width: 320px;
+}
+.indextext p
+{
+    font-size: 120%;
+    line-height: 140%;
+}
+.personalinfo > li
+{
+    list-style-type: none;
+    max-width: 320px;
+    margin-left: -40px;
+    padding-top: 10px;
+    font-size: 120%;
+}
+.indexpicture
+{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social
+{
+    margin-left: -40px;
+}
+.social li
+{
+    list-style-type: none;
+    display: inline-block;
+    padding:4px 15px 4px 10px;
+}
+.social li a
+{
+    opacity: 0;
+}
+#facebook
+{
+    background: url("./images/facebook.png") no-repeat;
+    background-size: 30px;
+}
+#twitter
+{
+    background: url("./images/twitter.png") no-repeat;
+    background-size: 30px;
+}
+#youtube
+{
+    background: url("./images/youtube.png") no-repeat;
+    background-size: 30px;
+}
+#github
+{
+    background: url("./images/github.png") no-repeat;
+    background-size: 30px;
+}
+#linkedin
+{
+    background: url("./images/linkedin.png") no-repeat;
+    background-size: 30px;
+}
+#instagram
+{
+    background: url("./images/instagram.png") no-repeat;
+    background-size: 30px;
+}
+.button:hover
+{
+    transform: scale(1.25);
+}
+.personalinfo #mail
+{
+    color: #00C8C8;
+    text-decoration: none;
+}
+.social
+{
+    text-align: center;
+    padding-top: 10px;
+}
+@media screen and (max-width: 1250px) {
+    .indexdiv
+    {
+        flex-direction: column;
+    }
+}
+/*Index End*/
+/*Footer Start*/
+.footerdiv {
+    background-color: #333;
+    overflow: hidden;
+    margin-bottom: -8px;
+    margin-left: -8px;
+    text-align: center;
+    color: white;
+}
+.footerdiv a
+{
+    text-decoration: none;
+    color: #00C8C8;
+}
+/*Footer End*/
+/*Education Start*/
+#education * {
+    box-sizing: border-box;
+}
+.timeline {
+    position: relative;
+    margin-left: -8px;
+    background-color: #212529;
+    height: auto;
+    padding: 40px 116px;
+}
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.container {
+
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+.container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid #00C8C8;;
+    top: 15px;
+    border-radius: 50%;
+    margin-top: 77px;
+}
+.left {
+    padding: 10px 40px 10px 0;
+    left: 0;
+}
+
+.right {
+    padding: 10px 0 10px 40px;
+    left: 50%;
+}
+.right::after {
+    left: -16px;
+}
+.content {
+    padding: 5px 25px;
+    background-color: #333;
+    position: relative;
+    border-radius: 6px;
+    border: 2px groove #00C8C8;
+}
+/* Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+    .timeline::after {
+        left: 31px;
+    }
+    .container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+    .left::after, .right::after {
+        left: 15px;
+    }
+    .right {
+        left: 0;
+    }
+}
+#education h2
+{
+    color: #00C8C8;
+}
+#education p
+{
+    color: white;
+}
+/*Education End*/
+/*Contact Start*/
+.contact {
+    background-color: #212529;
+    padding: 20px 116px;
+    margin-left: -8px;
+    display: flex;
+    justify-content: space-between;
+}
+#kontaktdiv
+{
+    color: white;
+    flex: 50%;
+    display:flex;
+    flex-direction: column;
+}
+#kontaktdiv h2
+{
+    font-size:200%;
+    margin-bottom: -5px;
+}
+form
+{
+    padding-top: 40px;
+    flex: 50%;
+}
+label
+{
+    color: white;
+    font-size: 120%;
+}
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 2px solid #333;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+textarea
+{
+    height: 200px;
+}
+textarea:focus, input:focus{
+    outline: none;
+    border: 2px solid #00C8C8;
+}
+textarea:hover, input:hover{
+    border: 2px solid #00C8C8;
+}
+#submit {
+    background-color: #00C8C8;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    width: 25%;
+    margin-left: 37.5%;
+}
+#submit:hover
+{
+    cursor: pointer;
+    color: #00C8C8;
+    background-color: #333;
+}
+#infodiv
+{
+    flex: 50%;
+    display: flex;
+}
+#infoimgdiv,#infotextdiv
+{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#infoimgdiv
+{
+    flex: 8%;
+}
+#infotextdiv
+{
+    flex: 92%;
+}
+#infoimgdiv img
+{
+    width: 30px;
+    height: 30px;
+}
+#infotextdiv a
+{
+    text-decoration: none;
+    color: #00C8C8;
+}
+@media screen and (max-width: 800px) {
+    .contact
+    {
+        flex-direction: column;
+    }
+}
+/*Contact End*/
+/*Skills Start*/
+#skillsmain {
+    background-color: #212529;
+    padding: 20px 116px;
+    margin-left: -8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skills {
+    height: 250px;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #333;
+    border-radius: 10px;
+}
+.skillsdiv
+{
+    position: absolute;
+    background-color: #00C8C8;
+    color: white;
+    font-size: 130%;
+    border-radius: 5px;
+    text-align: center;
+    height: 35px;
+    width: 400px;
+    padding-top: 10px;
+    margin-top: -20px;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+.professionalskills {
+    max-width:12%;
+    max-height:12%;
+    margin-top: 50px;
+}
+.professional
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.captionskills
+{
+    width: 12%;
+    text-transform: uppercase;
+    font-size: 110%;
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+}
+#languages,#languagescaption
+{
+    margin-top: -30px;
+}
+/*Skills End*/
+/*Interests Start*/
+#interestsmain
+{
+    background-color: #212529;
+    padding: 20px 116px;
+    margin-left: -8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.interests
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.interestsreverse
+{
+    flex-direction: row-reverse;
+}
+.interests img
+{
+    flex-grow: 0;
+    max-width: 200px;
+    max-height: 200px;
+}
+.intereststext
+{
+    width: 80%;
+    color: white;
+    max-width: 80%;
+}
+.intereststext p
+{
+    line-height:200%;
+}
+.intereststext h2
+{
+    color: #00C8C8!important;
+}
+/*Interests End*/
